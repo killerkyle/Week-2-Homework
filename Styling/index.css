@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#heading-name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color: rgb(203, 206, 206);
+    margin-top: 45px;
+    border-radius: 10px;
+    width: 1200px;
+}
+
+h3 {
+    font-size: xx-large;
+    text-align: center;
+    line-height: 2.0em;
+    padding-top: 0px;
+}
+
+.main-image {
+    width: 750px;
+}
