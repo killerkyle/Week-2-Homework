@@ -8,11 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Styling/main.css">
+    <link rel="stylesheet" href="./Styling/index.css">
   </head>
   <body>
     
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <a href="#" class="navbar-brand"><h1 id="heading-name" position="sr-only">Kyle Pace</h1></a>
         <!-- Collapsable button for navigation links when smaller screens are used -->
         <button class="navbar-toggler">
@@ -20,9 +20,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="./index.html" class="nav-link">Home</a>
-                </li>
                 <li class="nav-item">
                     <a href="./index.html" class="nav-link">About</a>
                 </li>
@@ -36,17 +33,31 @@
         </div>
     </nav>
     
-    <div class="container" id="main">
-        <h3>About Me</h3>
-        <span><hr></span>
-        <img src="./02-Homework/Assets/Images/MercedesBenzStadiumNYE.jpg" alt="New Years Eve Event at Mercedes Benz Stadium" class="main-image">
-        <div class="paragraph-1">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, quos eum aspernatur cupiditate quisquam, omnis, fugit obcaecati ipsum veritatis maxime totam! Aperiam, praesentium nostrum reiciendis cupiditate deleniti perspiciatis a velit.</p>
+    <div class="container">
+       <div id="about-me" class="row row-1">
+            <div class="col-lg-12">
+                <h1>About Me</h1>
+                <hr>
+            </div>
         </div>
-        <br>
-        <div>
-            <p class="paragraph-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium beatae et corrupti sequi aspernatur quibusdam. Eos sed, iste maiores voluptatibus consequuntur molestiae ullam, praesentium assumenda totam culpa in dolorum necessitatibus!</p>
+        <div class="row row-2">
+            <div id="about-me-image" class="col-sm-6">
+                <img src="./02-Homework/Assets/Images/MercedesBenzStadiumNYE.jpg" alt="NYE Event at Mercedes Benz Stadium" class="responsive-image">
+            </div>
+            <div id="about-me-paragraph" class="col-sm-6">
+                    <p>Hi, I am Kyle. <br>
+                        I am a Husband of 8 years and Father of 3 kids. I have 2 girls and 1 boy. <br>
+                            -Estelle 8 years old <br>
+                            -Van 4 years old <br>
+                            -Ophelia 2 years old <br>
+                        I was born and raised in Sandy, UT. I currently reside in Herriman, UT<br>
+                        I am a Live Audio System Designer/Engineer. I have worked or designed tours, events and festivals for Bassnectar, Rage Against the Machine, Blink 182, Excision, Pearl Jam, Red Hot Chili Peppers and more. <br>
+                        I design and operate large sound reinforcement systems at places like Coachella, EDC, Lollapolooza, Firefly, Bonnaroo. <br> 
+                        Live audio and acoustics are my passion and hobby and I strive to continue learning and growing in a field that I love.
+                    </p>
+            </div>
         </div>
+            
     </div>
 
      
