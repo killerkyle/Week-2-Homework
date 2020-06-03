@@ -5,7 +5,7 @@
 
 body {
     background-color: rgb(180, 182, 186);
-    height: 500px;
+    height: 1100px;
 }
 
 #heading-name {
@@ -26,21 +26,7 @@ h1 {
     
 }
 
-/* #about-me {
-    height: 75px;
-    line-height: 40px;
-    padding-top: 15px;
-    padding-bottom: 20px;
-    padding-left: 60%;
-} */
-
-/* #about-me-image {
-    border-right: none;
-    padding-top: 25px;
-    padding-right: 0px;
-    padding-left: 5px;
-    left: 20px;
-} */
+/* Had a dificult time sixing images and placing them to be the same size. So i played around and found that max/min can kind of make this happen. ANy other way to make this easier? */
 
 .responsive-image {
     max-width: 90% !important;
@@ -49,7 +35,7 @@ h1 {
     padding-left: 15px;
     block-size: 80%;
 }
-
+/* Is there an easier method to have text fall under an image, form or any element you put inside of a container */
 #about-me-paragraph {
     padding-top: 15px;
     padding-right: 15px;
@@ -73,6 +59,25 @@ h1 {
 h2 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Is there a rule of thumb to place things in order as they go along for other programmers? */
+#container {
+    max-width: 100%;
+    background-color: rgb(34, 33, 34);
+    text-align: center;
+    color: springgreen;
+}
+
+.footer {
+    position: sticky;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin-top: 170px;
+
 }
 
 
