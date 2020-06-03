@@ -43,7 +43,6 @@ h1 {
 } */
 
 .responsive-image {
-    border-radius: 13px;
     max-width: 90% !important;
     height: auto !important;
     padding-top: 25px;
