@@ -51,7 +51,7 @@ h1 {
 .responsive-image-2 {
         max-width: 100% !important;
         height: auto !important;
-        padding-top: 20px;
+        padding-top: 40px;
         padding-right: 10px;
         block-size: 80%;
 }
@@ -69,15 +69,38 @@ h2 {
 }
 
 .footer {
-    position: sticky;
+    position: relative;
     width: 100%;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 0;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
+    font-size: medium;
     margin-top: 170px;
+}
 
+/* div.footer-copyright.text-center.py-3 {
+    padding-bottom: 0;
+} */
+
+#clickable_logos {
+    padding-bottom: 20px;
+}
+
+img.linkedin.img-responsive {
+    padding-left: 10px;
+    max-height: 47px;
+    max-width: 47px;
+}
+
+img.footer_github_logo {
+    padding-left: 10px;
+}
+
+img.footer_resume_logo {
+    padding-left: 5px;
+    max-width: 36px;
+    max-height: 36px;
 }
 
 
