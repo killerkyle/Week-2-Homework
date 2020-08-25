@@ -65,10 +65,11 @@ body {
 .responsive-image-3 {
     width: 700px;
     max-width: 100% !important;
-    min-width: 60% !important;
+    min-width: 90% !important;
     height: auto !important;
-    padding-top: 15px;
-    padding-top: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 35px;
     border-radius: 20px;
     block-size: 100%;
 }
@@ -103,6 +104,22 @@ body {
 
 #weather-api {
     line-height: 35px;
+}
+
+.col-lg-5 {
+    margin-left: 60px;
+}
+
+#password {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 45px;
+    line-height: 45px;
+}
+
+#password-heading {
+    text-align: center;
+    padding-top: 15px;
 }
 
 /* I couldn't figure out how to place a banner over another image. "nesting" I beleive that its called? I looked everywhere and everytime i tried it wouldnt respond correctly */
