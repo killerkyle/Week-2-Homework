@@ -16,17 +16,19 @@ body {
     position: relative;
     background-color: rgb(232, 232, 232);
     margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     max-block-size: 1200px;
     border-radius: 20px;
 }
-/* Had a dificult time sixing images and placing them to be the same size. So i played around and found that max/min can kind of make this happen. ANy other way to make this easier? */
+
 .responsive-image {
-    max-width: 94% !important;
+    max-width: 99% !important;
     min-width: 60% !important;
     height: auto !important;
-    padding-top: 15px;
-    border: none;
-    block-size: 80%;
+    margin: 15px 15px;
+    border-radius: 20px;
+    block-size: 100%;
 }
 
 .responsive-image-2 {
@@ -43,18 +45,41 @@ body {
     height: auto !important;
     padding-top: 15px;
     padding-top: 15px;
-    border: none;
+    border-radius: none;
     block-size: 80%;
 }
+
+.responsive-image-4 {
+    float: 10px right;
+    width: 505px;
+    height: 950px;
+    max-height: 95%;
+    max-width: 94% !important;
+    min-width: 60% !important;
+    margin: 15px 15px;
+    border-radius: 20px;
+    block-size: 100%;
+}
+
+#weather-heading {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#weather-api {
+    line-height: 35px;
+}
+
 /* I couldn't figure out how to place a banner over another image. "nesting" I beleive that its called? I looked everywhere and everytime i tried it wouldnt respond correctly */
-.banner-1 {
-    max-width: 94%;
+/* .banner-1 {
+    max-width: 87.4%;
     padding: 10px;
+    margin-left: 40px;
     border-bottom: none;
     background-color: rgba(47, 80, 107, 0.6901960784313725);
     text-align: center;
     color: white;
-}
+} */
 
 .banner-2 {
     max-width: 97.5%;
@@ -73,16 +98,27 @@ body {
     text-align: center;
     color: white;
 }
+
+/* .banner-4 {
+    max-width: 91.9%;
+    padding: 10px;
+    margin-right: 34px;
+    border-bottom: none;
+    background-color: rgba(47, 80, 107, 0.6901960784313725);
+    text-align: center;
+    color: white;
+} */
 /* footer was tricky with bootstrap. I couldnt get anything from bootstrap to go to the bottom of the page. So I looked online and found a video and used that as a reference */
 .footer {
     position: absolute;
+    margin-top: 60px;
     width: 100%;
     text-align: center;
     padding-bottom: 20px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
-    margin-top: 560px;
+    margin-top: 250px;
 
 }
 
